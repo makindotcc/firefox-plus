@@ -370,7 +370,7 @@ toolbarbutton[part="scrollbutton-down"] {
 }
 
 #TabsToolbar #TabsToolbar-customization-target> :not(#tabbrowser-tabs) {
-  margin-top: calc(2px + var(--tab-block-margin)) !important;
+  margin-top: calc(var(--tab-block-margin) / 2 - 1px) !important;
 }
 
 /* add margin to tabs if they are the first or last tab */
